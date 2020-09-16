@@ -17,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void btn1(View view) {
         Log.i("main","btn1 msg ...");
+
         EditText input=findViewById(R.id.inp);
         TextView oup=findViewById(R.id.oup);
         float temp=Float.valueOf(input.getText().toString());
