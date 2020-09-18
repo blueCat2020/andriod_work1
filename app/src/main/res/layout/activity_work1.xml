@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:padding="30dp">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="@string/work1_label1"
+        android:textSize="40dp"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:id="@+id/work1_result"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="15dp"
+        android:gravity="center"
+        android:text="@string/work1_result"
+        android:textSize="50dp" />
+
+    <Button
+        android:id="@+id/work1_btn1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:text="@string/work1_btn1"
+        android:textSize="25dp"
+        android:onClick="work1_btn1"/>
+
+    <Button
+        android:id="@+id/work1_btn2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/work1_btn2"
+        android:layout_marginBottom="25dp"
+        android:textSize="25dp"
+        android:onClick="work1_btn2"/>
+
+    <Button
+        android:id="@+id/work1_btn3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/work1_btn3"
+        android:layout_marginBottom="25dp"
+        android:textSize="25dp"
+        android:onClick="work1_btn3"
+        />
+
+    <Button
+        android:id="@+id/work1_btn4"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:text="@string/work1_btn4"
+        android:layout_marginTop="120dp"
+        android:textSize="30dp"
+        android:layout_gravity="center"
+        android:onClick="work1_btn4"/>
+
+</LinearLayout>

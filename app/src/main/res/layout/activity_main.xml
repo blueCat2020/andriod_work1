@@ -22,7 +22,7 @@
         android:text="" />
 
     <Button
-        android:id="@+id/btn"
+        android:id="@+id/btn1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginBottom="15dp"
@@ -30,10 +30,21 @@
         android:text="@string/btnword" />
 
     <TextView
-        android:id="@+id/oup"
+        android:id="@+id/work1_result"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="20sp"
         android:text="@string/result" />
+
+    <Button
+        android:id="@+id/nextpage_btn"
+        android:layout_height="wrap_content"
+        android:layout_width="120dp"
+        android:layout_marginTop="240dp"
+        android:textSize="20dp"
+        android:layout_gravity="right"
+        android:text="@string/next_page"
+        android:onClick="nextpage_btn"
+        />
 
 </LinearLayout>
