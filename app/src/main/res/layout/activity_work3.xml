@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Work3_Activity"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp"
+    tools:ignore="MissingConstraints">
+
+        <EditText
+            android:id="@+id/input_work3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="10dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/input_work3"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/darker_gray"
+            android:textSize="30sp"
+            android:importantForAutofill="no" />
+
+        <TextView
+            android:id="@+id/result_work3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="24dp"
+            android:gravity="center"
+            android:hint="@string/result_work3"
+            android:textSize="40sp" />
+
+        <Button
+            android:id="@+id/btn1_work3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:onClick="btn1_work3"
+            android:text="@string/btn1_work3"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn2_work3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="24dp"
+            android:layout_marginBottom="4dp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:onClick="btn2_work3"
+            android:text="@string/btn2_euro"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn3_work3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:onClick="btn3_work3"
+            android:text="@string/btn3_work3"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btn4_work3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="24dp"
+            android:background="@android:color/holo_blue_dark"
+            android:gravity="center"
+            android:onClick="config_work3"
+            android:text="@string/btn4_work3"
+            android:textSize="18sp" />
+
+</LinearLayout>

@@ -10,4 +10,16 @@
     <string name="work1_label1">TeamA</string>
     <string name="work1_result">0</string>
     <string name="next_page">下一页</string>
+    <string name="input_work3">input RMB</string>
+    <string name="label2_work3">HELLO</string>
+    <string name="result_work3">result</string>
+    <string name="btn1_work3">dolloar</string>
+    <string name="btn2_euro">euro</string>
+    <string name="btn3_work3">won</string>
+    <string name="btn4_work3">config</string>
+    <string name="saveBtn_work3">save</string>
+    <string name="savebtn_work3">save</string>
+    <string name="dolloar_hint">请输入当前美元汇率</string>
+    <string name="euro_work3">请输入欧元汇率</string>
+    <string name="won_hint">请输入韩元汇率</string>
 </resources>
