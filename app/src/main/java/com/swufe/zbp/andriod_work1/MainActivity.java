@@ -17,7 +17,7 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG ="MainActivity" ;
-    private String[] activitys = { "Work0_Activity", "Work1_Activity", "Work2_Activity", "Work3_Activity", "Work3_2_Activity"};
+    private String[] activitys = { "Work0_Activity", "Work1_Activity", "Work2_Activity", "Work3_Activity","Work4_Activity"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,8 +46,8 @@ public class MainActivity extends AppCompatActivity {
                     case "Work3_Activity":
                         activity=new Work3_Activity();
                         break;
-                    case "Work3_2_Activity":
-                        activity=new Work3_2_Activity();
+                    case "Work4_Activity":
+                        activity=new Work4_Activity();
                         break;
                     default:
                         activity=new AppCompatActivity();
