@@ -1,23 +1,18 @@
 package com.swufe.zbp.andriod_work1;
 
 import android.content.Intent;
-import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.TextView;
 import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
     private static final String TAG ="MainActivity" ;
-    private String[] activitys = { "Work0_Activity", "Work1_Activity", "Work2_Activity", "Work3_Activity","Work4_Activity"};
+    private String[] activitys = { "Work0_Activity", "Work1_Activity", "Work2_Activity", "Work3_Activity","Work4_Activity","Work5_Activity"};
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -48,6 +43,9 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case "Work4_Activity":
                         activity=new Work4_Activity();
+                        break;
+                    case "Work5_Activity":
+                        activity=new Work5_Activity();
                         break;
                     default:
                         activity=new AppCompatActivity();

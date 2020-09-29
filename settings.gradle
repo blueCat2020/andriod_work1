@@ -1,2 +1,3 @@
+include ':android_worklib'
 include ':app'
 rootProject.name = "andriod_work1"
