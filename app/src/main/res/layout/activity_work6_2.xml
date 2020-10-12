@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Work6_2_Activity"
+    android:padding="20dp">
+
+
+    <TextView
+        android:id="@+id/country_label"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+       />
+
+    <EditText
+        android:id="@+id/money_work6_2"
+        android:layout_width="match_parent"
+        android:layout_height="104dp"
+        android:ems="10"
+        android:hint="请输入金额，点击屏幕得到结果"
+        android:inputType="numberSigned|numberDecimal" />
+
+    <TextView
+        android:id="@+id/trans_result"
+        android:layout_width="match_parent"
+        android:layout_height="118dp"
+         />
+</LinearLayout>

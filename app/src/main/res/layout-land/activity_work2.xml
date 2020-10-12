@@ -2,22 +2,22 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".Work2_Activity">
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="match_parent"
-        android:layout_height="68dp"
+        android:layout_height="50dp"
         android:gravity="left"
-        android:textSize="40sp"
-        android:text="CourtCounter" />
+        android:text="CourtCounter"
+        android:textSize="30sp" />
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="602dp">
+        android:layout_height="282dp">
 
         <LinearLayout
             android:id="@+id/line_a"
@@ -50,45 +50,45 @@
                 android:id="@+id/line_a_btn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="horizontal"
+                >
 
                 <Button
                     android:id="@+id/A_btn1"
-                    android:layout_width="match_parent"
-                    android:layout_height="65dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
                     android:onClick="A_btn1"
-                    android:text="@string/work1_btn1"
 
+                    android:text="@string/work1_btn1"
                     android:textSize="15sp" />
 
                 <Button
                     android:id="@+id/A_btn2"
-                    android:layout_width="match_parent"
-                    android:layout_height="65dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
                     android:onClick="A_btn2"
                     android:text="@string/work1_btn2"
                     android:textSize="15sp" />
 
                 <Button
                     android:id="@+id/A_btn3"
-                    android:layout_width="match_parent"
-                    android:layout_height="65dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_weight="1"
                     android:onClick="A_btn3"
                     android:text="@string/work1_btn3"
                     android:textSize="15sp" />
-
             </LinearLayout>
 
 
@@ -130,40 +130,40 @@
                 android:id="@+id/line_b_btn"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:orientation="vertical">
+                android:orientation="horizontal">
 
                 <Button
                     android:id="@+id/B_btn1"
-                    android:layout_width="match_parent"
-                    android:layout_height="65dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="24dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="4dp"
+                    android:layout_weight="1"
                     android:onClick="B_btn1"
                     android:text="@string/work1_btn1"
                     android:textSize="15sp" />
 
                 <Button
                     android:id="@+id/B_btn2"
-                    android:layout_width="match_parent"
-                    android:layout_height="65dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginRight="4dp"
+                    android:layout_weight="1"
                     android:onClick="B_btn2"
                     android:text="@string/work1_btn2"
                     android:textSize="15sp" />
 
                 <Button
                     android:id="@+id/B_btn3"
-                    android:layout_width="match_parent"
-                    android:layout_height="65dp"
-                    android:layout_marginLeft="8dp"
-                    android:layout_marginRight="8dp"
-                    android:layout_marginBottom="8dp"
-                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="4dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="24dp"
+                    android:layout_weight="1"
                     android:onClick="B_btn3"
                     android:text="@string/work1_btn3"
                     android:textSize="15sp" />
@@ -178,15 +178,13 @@
 
         <Button
             android:id="@+id/work2_reset_btn"
-            android:layout_width="163dp"
-            android:layout_height="55dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:onClick="work2_reset_btn"
             android:text="@string/work1_btn4"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.353" />
+            app:layout_constraintTop_toTopOf="parent" />
     </android.support.constraint.ConstraintLayout>
 </LinearLayout>
