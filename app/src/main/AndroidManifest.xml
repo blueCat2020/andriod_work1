@@ -12,7 +12,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Work6_2_Activity"></activity>
+        <service android:name=".LongRunningService"></service>
+        <receiver android:name=".AlarmReceiver"></receiver>
+        <activity android:name=".Work6_2_Activity" />
         <activity android:name=".Work6_Activity" />
         <activity android:name=".Work5_Activity" />
         <activity android:name=".Work4_2_Activity" />

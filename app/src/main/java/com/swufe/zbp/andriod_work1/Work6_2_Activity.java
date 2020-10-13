@@ -6,10 +6,8 @@ import android.os.Bundle;
 import android.text.Editable;
 import android.text.TextWatcher;
 import android.util.Log;
-import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
-import android.widget.Toast;
 
 public class Work6_2_Activity extends AppCompatActivity {
     private static String TAG="Work6_2_Activity";
@@ -24,7 +22,7 @@ public class Work6_2_Activity extends AppCompatActivity {
         rate=intent.getFloatExtra("rate",0.0f);
         TextView textView=findViewById(R.id.country_label);
         textView.setText(country);
-        final EditText money_rmb=findViewById(R.id.money_work6_2);//为什么需要final
+        EditText money_rmb=findViewById(R.id.money_work6_2);
         money_rmb.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
@@ -38,6 +36,7 @@ public class Work6_2_Activity extends AppCompatActivity {
 
             @Override
             public void afterTextChanged(Editable s) {
+                EditText money_rmb=findViewById(R.id.money_work6_2);
                 Log.i("TextWatcher","输入之后");
                 TextView result=findViewById(R.id.trans_result);
                 float money=Float.parseFloat(money_rmb.getText().toString());

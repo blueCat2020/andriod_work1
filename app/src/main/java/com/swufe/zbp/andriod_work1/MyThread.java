@@ -64,7 +64,7 @@ public class MyThread implements Runnable{
         }
         return out.toString();
     }
-    private Map<String,Float> getData(){
+    public Map<String,Float> getData(){
         String http_url="https://www.boc.cn/sourcedb/whpj/";
         Map<String, Float> map=new HashMap<>();
         try {

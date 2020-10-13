@@ -1,7 +1,6 @@
 package com.swufe.zbp.andriod_work1;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -19,6 +18,7 @@ public class Work4_2_Activity extends AppCompatActivity {
         float dollarRate=sharedPreferences.getFloat("dollar_rate",0.0f);
         float euroRate=sharedPreferences.getFloat("euro_rate",0.0f);
         float wonRate=sharedPreferences.getFloat("won_rate",0.0f);
+
         EditText dollar_view=findViewById(R.id.dolloar_value);
         EditText euro_view=findViewById(R.id.euro_value);
         EditText won_view=findViewById(R.id.won_value);
